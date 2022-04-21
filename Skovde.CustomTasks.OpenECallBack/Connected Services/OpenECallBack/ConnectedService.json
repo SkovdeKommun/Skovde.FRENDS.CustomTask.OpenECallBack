@@ -1,0 +1,16 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "https://sjalvservice.skovde.se:8443/api/callback?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, OpenECallBack"
+    ],
+    "targetFramework": "netstandard2.0",
+    "typeReuseMode": "None"
+  }
+}

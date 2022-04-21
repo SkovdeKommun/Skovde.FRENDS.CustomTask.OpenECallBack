@@ -1,0 +1,28 @@
+﻿{
+	"Tasks": [
+		{
+			"TaskMethod": "Skovde.CustomTasks.OpenECallBack.OpenE.WriteMessageToOpenE"
+		},
+		{
+			"TaskMethod": "Skovde.CustomTasks.OpenECallBack.OpenE.WriteInternalMessageToOpenE"
+		},
+		{
+			"TaskMethod": "Skovde.CustomTasks.OpenECallBack.OpenE.SetStatusOnOpenETicket"
+		},
+		{
+			"TaskMethod": "Skovde.CustomTasks.OpenECallBack.OpenE.GetOpenEManagers"
+		},
+		{
+			"TaskMethod": "Skovde.CustomTasks.OpenECallBack.OpenE.SetOpenEManagers"
+		},
+		{
+			"TaskMethod": "Skovde.CustomTasks.OpenECallBack.OpenE.AddEventToOpenE"
+		},
+		{
+			"TaskMethod": "Skovde.CustomTasks.OpenECallBack.OpenE.DeleteOpenEInstance"
+		},
+		{
+			"TaskMethod": "Skovde.CustomTasks.OpenECallBack.OpenE.SetOpenEAttribute"
+		}
+	]
+}
