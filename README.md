@@ -1,6 +1,6 @@
 # Skovde.CustomTasks.OpenECallBack
 
-frends Community Task for OpenE
+FRENDS Task for integrating with OpenE using their API. NOT ALL TASKS HAVE BEEN TESTED OR DOCUMENTED YET.
 
 [![Actions Status](https://github.com/CommunityHiQ/Skovde.CustomTasks.OpenECallBack/workflows/PackAndPushAfterMerge/badge.svg)](https://github.com/CommunityHiQ/Skovde.CustomTasks.OpenECallBack/actions) ![MyGet](https://img.shields.io/myget/frends-community/v/Skovde.CustomTasks.OpenECallBack) [![License: UNLICENSED](https://img.shields.io/badge/License-UNLICENSED-yellow.svg)](https://opensource.org/licenses/UNLICENSED) 
 
