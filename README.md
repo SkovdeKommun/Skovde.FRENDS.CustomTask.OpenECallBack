@@ -18,35 +18,46 @@ https://www.myget.org/F/frends-community/api/v3/index.json and in Gallery view i
 
 # Tasks
 
-## OpenE
+## WriteMessageToOpenE
 
-Repeats a message
+Writes a message to OpenE, takes in DateTime, ExternalID, FlowInstanceID, attachments, a message string and a userID field.
 
 ### Properties
 
 | Property | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
-| Message | `string` | Some string that will be repeated. | `foo` |
+| Added | `DateTime` | DateTime to specify when the message was added | `DateTime.Now` |
+| Attachments | `AttachMents` |  | `` |
+| Message | `string` | Message to be written to OpenE | `Hello World` |
+| UserID | `string` | UserID that is written to the message, does not need to be an actual user | `FRENDS` |
+| Added | `DateTime` | DateTime to specify when the message was added | `DateTime.Now` |
+| Id | `string` | Name that will be written along with the message, but not visible in OpenE  | `FRENDS` |
+| System | `string` | Required field, but not visible in OpenE UI | `FRENDS` |
+| FlowInstanceID | `int` | FlowInstanceID (ticket ID) in OpenE to write the message to | `73` |
+| Added | `DateTime` | DateTime to specify when the message was added | `DateTime.Now` |
+| Name | `string` | Name that will be written to the message | `DateTime.Now` |
+| UserID | `string` | Username that will be written to the message | `DateTime.Now` |
 
 ### Options
 
 | Property | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
-| Amount | `int` | Amount how many times message is repeated. | `3` |
-| Delimiter | `string` | Character(s) used between replications. | `, ` |
+| RemoteAddress | `string` | URI to OpenE callback service | `https://your_address_here` |
+| UserName | `string` | Username to authenticate to OpenE. | `,` |
+| Password | `string` | Password to authenticate to OpenE. | `,` |
 
 ### Returns
 
-A result object with parameters.
+A string from OpenE with the message ID.
 
 | Property | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
-| Replication | `string` | Repeated string. | `foo, foo, foo` |
+| Result | `string` | Response from OpenE with the message ID. | `55` |
 
 Usage:
-To fetch result use syntax:
+Fill in the necessary data into the task and it should write a message to OpenE. 
 
-`#result.Replication`
+`#result`
 
 # Building
 
