@@ -4,8 +4,8 @@
 	<TargetFrameworks>netstandard2.0;net471</TargetFrameworks>
     <authors>Philip Håkans</authors>
     <copyright>Philip Håkans</copyright>
-    <PackageLicenseExpression>UNLICENSED</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/CommunityHiQ/Skovde.CustomTasks.OpenECallBack</PackageProjectUrl>
+    <PackageLicenseExpression>MIT License</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/SkovdeKommun/Skovde.FRENDS.CustomTask.OpenECallBack</PackageProjectUrl>
     <IncludeSource>true</IncludeSource>
     <PackageTags>Frends</PackageTags>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
